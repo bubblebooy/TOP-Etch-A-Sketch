@@ -1,0 +1,16 @@
+div.colored {
+  /* background-color: black; */
+}
+
+.square {
+  background-color: white;
+  transition: 0.1s
+}
+
+.square:hover{
+  background-color: blue;
+}
+
+#canvas{
+  border-style: solid;
+}
