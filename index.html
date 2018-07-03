@@ -8,12 +8,21 @@
 	<body>
 
     <h1> Etch-A-Sketch Project </h1>
-		<div>
+		<div id = "canvasControlls">
 			<button id="clear" onclick="clearCanvas()"> Clear </button>
-			Resolution <input type="number" value="24"> sq
+			<p>Resolution <input type="number" id = "resolution" value="44" max="44"> sq</p>
+			<p>Brush Strength <input type="number" id = "strength" value="100" max="100"> %</p>
 		</div>
 
-  <div id = canvas> </div>
-	<script src="EtachScript.js"></script>
+		<div id="colorSelector">
+				<div id='rainbow' class="colorChoice selected" style="background-color: black;"></div>
+				<div class="colorChoice" style="background-color: black;"></div>
+		</div>
+
+  	<div id = "canvas"> </div>
+
+		<script src="EtachScript.js"></script>
+
+
 	</body>
 </html>
